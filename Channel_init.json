@@ -1,0 +1,9 @@
+{
+    "Name": "Mehrkanaliges Temperaturmessmodul",
+    "Description": "IPA_2020",
+    "Author": "Felix Kaelin",
+    "available_channel": "20",
+    "used_channel": "8",
+    "time": "86400",
+    "time_interval": "5"
+}
