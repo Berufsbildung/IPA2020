@@ -128,3 +128,43 @@ D_10UA = 0b00
 D_20UA = 0b01 
 D_40UA = 0b10 
 D_80UA = 0b11
+
+
+"""RTD CONFIGURATION"""
+
+#RTD type
+PT_10 = 0b01010
+PT_50 = 0b01011
+PT_100 = 0b01100
+PT_1000 = 0b01111
+
+#RSENSE Assignment
+CH2_1 = 0b00010
+CH3_2 = 0b00011
+CH4_3 = 0b00100
+CH5_4 = 0b00101
+CH6_5 = 0b00110
+
+#Wire
+WIRE_2 = 0b00
+WIRE_3 = 0b01
+
+#Mode
+Ext = 0b00
+Int = 0b01
+
+#Ex_curr
+C_EXT = 0b0000
+C_5uA = 0b0001
+C_10uA = 0b0010
+C_25uA = 0b0011
+C_50uA = 0b0100
+C_100uA = 0b0101
+C_250uA = 0b0110
+C_500uA = 0b0111
+C_1000uA = 0b1000
+
+#Standard
+Europa = 0b00
+American = 0b01
+Japan = 0b10
